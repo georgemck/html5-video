@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+	id="com.zukinimobile.html5video" versionCode="10" version="1.0.0">
+
+	
+
+	<!-- versionCode is optional and Android only --><name>Zukini Video</name>
+
+	<description>
+		HTML5 Video Player
+	</description>
+
+	<author href="http://www.zukinimobile.com" email="george@zukinimobile.com">George McKinney
+	</author>
+	<!-- if a single icon is specified then Build will use it for all platforms -->
+	<icon src="icons/icon.png" />
+
+	<!-- the default attribute can also be used -->
+	<icon src="icons/icon.png" default="true" />
+
+	<!-- specifies the icon to be displayed when hovered over (on BlackBerry) -->
+	<icon src="icons/icon-hover.png" hover="true" />
+
+	<!-- iOS requires specific dimensions for icons; classic iPhone screens, 
+		Retina displays, and iPad screens respectively -->
+	<icon src="icons/icon-iphone-57.png" width="57" height="57" />
+	<icon src="icons/icon-iphone-72.png" width="72" height="72" />
+	<icon src="icons/icon-iphone-114.png" width="114" height="114" />
+
+	<!-- Android requires specific dimensions; ldpi, mdpi, and hdpi respectively -->
+	<icon src="icons/icon-android-36.png" width="36" height="36" />
+	<icon src="icons/icon-android-48.png" width="48" height="48" />
+	<icon src="icons/icon-android-72.png" width="72" height="72" />
+
+	<!-- Windows Phone 7 requires specific dimenstions or platform and role 
+		attributes -->
+
+	<icon src="icon/icon-winphone.png" width="62" height="62" />
+
+
+	<icon src="icon/tile-icon-winphone.png" width="173" height="173" />
+
+
+	<gap:splash src="splashes/splash.png" />
+	<!--gap:splash src="splashes/retina.png" width="640" height="960" />
+	<gap:splash src="splashes/ipad-portrait.png" width="768"
+		height="1004" />
+	<gap:splash src="splashes/ipad-landscape.png" width="1024"
+		height="748" />
+	<gap:splash src="splashes/winphone-splash.png" width="480"
+		height="800"-->
+
+
+
+
+
+</widget>
